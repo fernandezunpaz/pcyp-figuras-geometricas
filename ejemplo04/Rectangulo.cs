@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ejemplo04
 {
-    class Rectangulo
+    public class Rectangulo
     {
         private int alto;
         private int ancho;
