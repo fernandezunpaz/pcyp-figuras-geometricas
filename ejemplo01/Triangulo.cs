@@ -2,7 +2,7 @@ using System;
 
 namespace ejemplo01
 {
-    class TrianguloRectangulo : Figura
+    class Triangulo : Figura
     {
         public override double area() {
             return this.ancho * (Math.Sqrt(this.perimetro()) / 2);

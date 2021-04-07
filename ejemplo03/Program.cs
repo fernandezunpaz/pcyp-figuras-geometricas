@@ -4,29 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ejemplo01
+namespace ejemplo03
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Figura rectangulo = new Rectangulo();
-            rectangulo.setAlto(5);
-            rectangulo.setAncho(4);
+
+            Rectangulo rectangulo = new Rectangulo();
+            rectangulo.setLados(5, 4);
             Console.WriteLine("Area del rectangulo: " + rectangulo.area());
             Console.WriteLine("Perimetro del rectangulo: " + rectangulo.perimetro());
 
-            Figura cuadrado = new Cuadrado();
-            cuadrado.setAlto(5);
-            cuadrado.setAncho(4);
+            Rectangulo cuadrado = new Rectangulo();
+            cuadrado.setLados(4);
             Console.WriteLine("Area del cuadrado: " + cuadrado.area());
             Console.WriteLine("Perimetro del cuadrado: " + cuadrado.perimetro());
 
-            Figura triangulo = new Triangulo();
-            triangulo.setAlto(5);
-            triangulo.setAncho(4);
+            Triangulo triangulo = new Triangulo();
+            triangulo.setLados(4);
             Console.WriteLine("Area del triangulo: " + triangulo.area());
             Console.WriteLine("Perimetro del triangulo: " + triangulo.perimetro());
+
         }
     }
 }
