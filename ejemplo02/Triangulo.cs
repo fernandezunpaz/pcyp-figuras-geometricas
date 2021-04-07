@@ -2,9 +2,9 @@ using System;
 
 namespace ejemplo02
 {
-    class TrianguloRectangulo : Figura
+    class Triangulo : Figura
     {
-        public TrianguloRectangulo(int lado)
+        public Triangulo(int lado)
         {
             this.ancho = lado;
             this.alto = lado;
